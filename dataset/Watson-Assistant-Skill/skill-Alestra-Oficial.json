@@ -1,62 +1,13 @@
 {
   "intents": [
     {
-      "intent": "Request",
+      "intent": "Agradecimiento",
       "examples": [
         {
-          "text": "No puedo entrar a la seccion de nomina en el portal"
-        },
-        {
-          "text": "Pueden eliminar al usuario xyz"
-        },
-        {
-          "text": "Pueden agregar un usuario en Pega"
-        },
-        {
-          "text": "No puedo entrar a la seccion de reportes en SAP"
-        },
-        {
-          "text": "necesito quitar un user"
-        },
-        {
-          "text": "quiero quitar todos los permisos a un usuario"
-        },
-        {
-          "text": "quiero poder ver la seccion de favoritpos de pega"
-        },
-        {
-          "text": "quiero poder ver la seccion de favoritos de pega"
-        },
-        {
-          "text": "quiero agregar otro usuario"
-        },
-        {
-          "text": "Me pueden dar acceso a portal de empleados"
-        },
-        {
-          "text": "quiero hacer un pedido"
-        },
-        {
-          "text": "Quiero que me den de alta un usuario en SAP"
-        },
-        {
-          "text": "Quiero una nueva cuenta de correo"
+          "text": "muchas gracias"
         }
-      ]
-    },
-    {
-      "intent": "Adios",
-      "examples": [
-        {
-          "text": "bye"
-        },
-        {
-          "text": "adios"
-        },
-        {
-          "text": "hasta luego"
-        }
-      ]
+      ],
+      "description": ""
     },
     {
       "intent": "Problem_report",
@@ -65,52 +16,67 @@
           "text": "Al intentar entrar al SAP en la nube"
         },
         {
-          "text": "Me dice que no puedo seguir hasta que active la licencia"
+          "text": "tengo un problema"
         },
         {
-          "text": "Al intentar entrar al SAP en la nube no se abre la web"
+          "text": "no puedo loguear"
         },
         {
-          "text": "Esta fallando mi SAP"
+          "text": "no puedo acceder"
         },
         {
-          "text": "dejo de funcionar mi sistema de vacaciones"
+          "text": "fallo en el registro"
         },
         {
-          "text": "la aplicacion del correo no funciona"
+          "text": "esta malo"
         },
         {
-          "text": "quiero reportar una falla de pega"
-        },
-        {
-          "text": "Tengo proglemas para ingresar a mi correo"
-        },
-        {
-          "text": "mi usuario no me deja entrar a la VPN"
-        },
-        {
-          "text": "me marca error de usuario y password"
-        },
-        {
-          "text": "El outlook esta cerrandose"
-        },
-        {
-          "text": "La aplicacion de correo se crashea"
-        },
-        {
-          "text": "La aplicacion de VPN se abre y se cierra"
-        },
-        {
-          "text": "Me marca error de licensia"
-        },
-        {
-          "text": "mi outlook me marca que la licencia esta vencida"
+          "text": "SAP no responde"
         },
         {
           "text": "El portal de empleados no abre"
         },
         {
-          "text": "SAP no responde"
+          "text": "mi outlook me marca que la licencia esta vencida"
+        },
+        {
+          "text": "Me marca error de licensia"
+        },
+        {
+          "text": "La aplicacion de VPN se abre y se cierra"
+        },
+        {
+          "text": "La aplicacion de correo se crashea"
+        },
+        {
+          "text": "El outlook esta cerrandose"
+        },
+        {
+          "text": "me marca error de usuario y password"
+        },
+        {
+          "text": "mi usuario no me deja entrar a la VPN"
+        },
+        {
+          "text": "Tengo proglemas para ingresar a mi correo"
+        },
+        {
+          "text": "quiero reportar una falla de pega"
+        },
+        {
+          "text": "la aplicacion del correo no funciona"
+        },
+        {
+          "text": "dejo de funcionar mi sistema de vacaciones"
+        },
+        {
+          "text": "Esta fallando mi SAP"
+        },
+        {
+          "text": "Me dice que no puedo seguir hasta que active la licencia"
+        },
+        {
+          "text": "Al intentar entrar al SAP en la nube no se abre la web"
         }
       ]
     },
@@ -118,31 +84,162 @@
       "intent": "Saludo",
       "examples": [
         {
-          "text": "hola"
+          "text": "ola"
         },
         {
           "text": "buenos dias"
         },
         {
+          "text": "hola"
+        },
+        {
+          "text": "buenas"
+        },
+        {
+          "text": "buenas tardes"
+        },
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "que tal"
+        },
+        {
           "text": "como estas"
         }
       ]
+    },
+    {
+      "intent": "Request",
+      "examples": [
+        {
+          "text": "No puedo entrar a la seccion de nomina en el portal"
+        },
+        {
+          "text": "requerimiento"
+        },
+        {
+          "text": "request"
+        },
+        {
+          "text": "perdi mi ususario"
+        },
+        {
+          "text": "Quiero una nueva cuenta de correo"
+        },
+        {
+          "text": "Quiero que me den de alta un usuario en SAP"
+        },
+        {
+          "text": "quiero hacer un pedido"
+        },
+        {
+          "text": "Me pueden dar acceso a portal de empleados"
+        },
+        {
+          "text": "quiero agregar otro usuario"
+        },
+        {
+          "text": "quiero poder ver la seccion de favoritos de pega"
+        },
+        {
+          "text": "quiero poder ver la seccion de favoritpos de pega"
+        },
+        {
+          "text": "quiero quitar todos los permisos a un usuario"
+        },
+        {
+          "text": "necesito quitar un user"
+        },
+        {
+          "text": "No puedo entrar a la seccion de reportes en SAP"
+        },
+        {
+          "text": "Pueden agregar un usuario en Pega"
+        },
+        {
+          "text": "Pueden eliminar al usuario xyz"
+        }
+      ]
+    },
+    {
+      "intent": "Adios",
+      "examples": [
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "hasta pronto"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "adios"
+        }
+      ]
+    },
+    {
+      "intent": "Opciones",
+      "examples": [
+        {
+          "text": "Cuales existen?"
+        },
+        {
+          "text": "que aplicaciones tienes"
+        },
+        {
+          "text": "no se"
+        },
+        {
+          "text": "¿cuales son las opciones?"
+        }
+      ],
+      "description": ""
     }
   ],
   "entities": [
     {
-      "entity": "request",
+      "entity": "problem",
       "values": [
         {
           "type": "synonyms",
-          "value": "add",
+          "value": "crash",
           "synonyms": [
-            "añadir",
-            "nuevo",
-            "alta",
-            "agregar"
+            "no abre la aplicacion",
+            "la app truena",
+            "se cierra la app",
+            "no abre"
           ]
         },
+        {
+          "type": "synonyms",
+          "value": "login",
+          "synonyms": [
+            "error al tratar de entrar",
+            "autenticar",
+            "autenticacion",
+            "inicio de sesion",
+            "entrar",
+            "no puedo acceder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "licencia",
+          "synonyms": [
+            "activation key",
+            "licence key"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "request",
+      "values": [
         {
           "type": "synonyms",
           "value": "delete",
@@ -155,100 +252,23 @@
         },
         {
           "type": "synonyms",
+          "value": "add",
+          "synonyms": [
+            "añadir",
+            "nuevo",
+            "alta",
+            "agregar",
+            "acceso"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "change",
           "synonyms": [
             "modificacion",
             "cambiar",
-            "modificar"
-          ]
-        }
-      ]
-    },
-    {
-      "entity": "application",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "All",
-          "synonyms": [
-            "todas las aplicaciones",
-            "todas las apps"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SAP",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Portal",
-          "synonyms": [
-            "portal interno",
-            "intranet",
-            "portal de empleados"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "email",
-          "synonyms": [
-            "outlook",
-            "correo"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Virtual private network",
-          "synonyms": [
-            "conexión segura",
-            "VPN"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Pega",
-          "synonyms": [
-            "Nuevo CRM",
-            "pega"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Siebel",
-          "synonyms": []
-        }
-      ]
-    },
-    {
-      "entity": "problem",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "login",
-          "synonyms": [
-            "error al tratar de entrar",
-            "autenticar",
-            "autenticacion",
-            "inicio de sesion",
-            "entrar"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "crash",
-          "synonyms": [
-            "no abre la aplicacion",
-            "la app truena",
-            "se cierra la app"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "licencia",
-          "synonyms": [
-            "activation key",
-            "licence key"
+            "modificar",
+            "actualizar"
           ]
         }
       ]
@@ -265,7 +285,65 @@
           "type": "synonyms",
           "value": "Si",
           "synonyms": [
-            "claro"
+            "claro",
+            "por supuesto",
+            "me parece bien"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "application",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "SAP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Siebel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pega",
+          "synonyms": [
+            "Nuevo CRM",
+            "pega"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Virtual private network",
+          "synonyms": [
+            "conexión segura",
+            "VPN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "outlook",
+            "correo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Portal",
+          "synonyms": [
+            "portal interno",
+            "intranet",
+            "portal de empleados"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "All",
+          "synonyms": [
+            "todas las aplicaciones",
+            "todas las apps"
           ]
         }
       ]
@@ -279,51 +357,30 @@
   },
   "dialog_nodes": [
     {
-      "type": "slot",
-      "output": {},
-      "parent": "node_5_1596837496528",
-      "variable": "$application",
-      "dialog_node": "slot_6_1596837502911",
-      "previous_sibling": "node_7_1596837653731"
-    },
-    {
-      "type": "slot",
-      "parent": "node_5_1596837496528",
-      "variable": "$problem",
-      "dialog_node": "slot_4_1596837532517",
-      "previous_sibling": "slot_6_1596837502911"
-    },
-    {
-      "type": "standard",
-      "parent": "node_5_1596837496528",
-      "metadata": {
-        "_customization": {
-          "mcr": true
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Que tipo de requerimiento deseas?"
+          ],
+          "selection_policy": "sequential"
         }
       },
-      "conditions": "@Afirmacion",
-      "dialog_node": "node_7_1596837653731",
-      "previous_sibling": "response_6_1597435247596"
+      "parent": "slot_4_1597710496078",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1597710496090",
+      "previous_sibling": "handler_4_1597710496090"
     },
     {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Tu problema es <? $problem ?> en <? $application ?>, y solicita acceso al report.  ¿Deseas crear un reporte?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1597710496078",
+      "context": {
+        "request": "@request"
       },
-      "parent": "node_5_1596837496528",
-      "disabled": true,
-      "conditions": "",
-      "dialog_node": "response_6_1597435247596"
+      "conditions": "@request",
+      "event_name": "input",
+      "dialog_node": "handler_4_1597710496090"
     },
     {
       "type": "response_condition",
@@ -365,6 +422,45 @@
       "dialog_node": "response_8_1596837677611"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1597711079476",
+      "conditions": "@Afirmacion:No",
+      "dialog_node": "response_3_1597711079479",
+      "previous_sibling": "response_2_1597711079479"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ahora tienes acceso al reporte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1597711079476",
+      "conditions": "@Afirmacion:Si",
+      "dialog_node": "response_2_1597711079479"
+    },
+    {
       "type": "event_handler",
       "output": {
         "text": {
@@ -389,6 +485,167 @@
       "conditions": "@problem",
       "event_name": "input",
       "dialog_node": "handler_3_1596837532527"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1597646965375",
+      "variable": "$application",
+      "dialog_node": "slot_3_1597710574086",
+      "previous_sibling": "slot_4_1597710496078"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1597646965375",
+      "variable": "$request",
+      "dialog_node": "slot_4_1597710496078",
+      "previous_sibling": "node_1_1597711079476"
+    },
+    {
+      "type": "standard",
+      "title": "Afirmacion",
+      "output": {},
+      "parent": "node_10_1597646965375",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Afirmacion",
+      "dialog_node": "node_1_1597711079476"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1596837496528",
+      "variable": "$application",
+      "dialog_node": "slot_6_1596837502911",
+      "previous_sibling": "node_7_1596837653731"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1596837496528",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Afirmacion",
+      "dialog_node": "node_7_1596837653731",
+      "previous_sibling": "response_6_1597435247596"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu problema es <? $problem ?> en <? $application ?>, y solicita acceso al report.  ¿Deseas crear un reporte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1596837496528",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_6_1597435247596",
+      "previous_sibling": "handler_3_1597713616340"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1596837496528",
+      "variable": "$problem",
+      "dialog_node": "slot_4_1596837532517",
+      "previous_sibling": "slot_6_1596837502911"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "SAP, Siebel, Pega, Virtual private network, email, Portal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1596837496528",
+      "conditions": "#Opciones",
+      "event_name": "generic",
+      "dialog_node": "handler_3_1597713616340"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Para cuál aplicación quieres el requerimiento?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1597710574086",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1597710574090",
+      "previous_sibling": "handler_5_1597710574090"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "SAP, Siebel, Pega, Virtual private network, email, Portal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1597710574086",
+      "conditions": "#Opciones",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1597713153407",
+      "previous_sibling": "handler_10_1597710574090"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1597710574086",
+      "context": {
+        "application": "@application"
+      },
+      "conditions": "@application",
+      "event_name": "input",
+      "dialog_node": "handler_5_1597710574090"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1597646933149",
+      "dialog_node": "slot_3_1597714125475",
+      "previous_sibling": "response_4_1597714137860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego."
+              },
+              {
+                "text": "Fue un placer serle de ayuda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1597646933149",
+      "disabled": true,
+      "dialog_node": "response_4_1597714137860"
     },
     {
       "type": "event_handler",
@@ -417,31 +674,43 @@
       "dialog_node": "handler_2_1596837502931"
     },
     {
-      "type": "standard",
-      "title": "En otras cosas",
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1597714125475",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1597714125498",
+      "previous_sibling": "handler_10_1597714125498"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1597714125475",
+      "event_name": "input",
+      "dialog_node": "handler_10_1597714125498"
+    },
+    {
+      "type": "frame",
+      "title": "Request",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "No le he entendido. Intente reformular la consulta."
-              },
-              {
-                "text": "¿Puede expresarse con otras palabras? No le he entendido."
-              },
-              {
-                "text": "No entendí el significado."
+                "text": "Se creó el requermiento: #<?new Random().nextInt(1000)?>. <? context.clear() ?> para la solicitud de <? $request ?> en la aplicación <? $application ?>.  \n¿Quieres acceso al reporte en un futuro?"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
           }
         ]
       },
-      "conditions": "anything_else",
-      "dialog_node": "En otras cosas",
-      "previous_sibling": "node_5_1596837496528",
-      "disambiguation_opt_out": true
+      "conditions": "#Request",
+      "dialog_node": "node_10_1597646965375",
+      "previous_sibling": "node_7_1597714155972"
     },
     {
       "type": "frame",
@@ -465,7 +734,107 @@
       },
       "conditions": "#Problem_report",
       "dialog_node": "node_5_1596837496528",
+      "previous_sibling": "node_10_1597646965375"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_5_1596837496528",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Adios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego."
+              },
+              {
+                "text": "Fue un placer serle de ayuda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Adios",
+      "dialog_node": "node_1_1597646933149",
+      "previous_sibling": "node_1_1597645855314"
+    },
+    {
+      "type": "standard",
+      "title": "Saludo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, ¿Cómo puedo ayudarle?"
+              },
+              {
+                "text": "Buen día, ¿En qué le puedo ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Saludo",
+      "dialog_node": "node_1_1597645855314",
       "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fue un placer serle de ayuda"
+              },
+              {
+                "text": "Con gusto"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Agradecimiento",
+      "dialog_node": "node_7_1597714155972",
+      "previous_sibling": "node_1_1597646933149"
     },
     {
       "type": "standard",
@@ -496,6 +865,9 @@
     },
     {
       "text": "si"
+    },
+    {
+      "text": "todas"
     }
   ],
   "system_settings": {
